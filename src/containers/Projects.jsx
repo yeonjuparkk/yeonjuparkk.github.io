@@ -1,5 +1,5 @@
 import "./Projects.css";
-import { Project } from "../components";
+import { Article } from "../components";
 
 const Projects = () => {
   const projectsData = [
@@ -45,7 +45,7 @@ const Projects = () => {
       </div>
       <div className="portfolio__projects-container">
         {projectsData.map(({ title, gitHubLink, deployLink, text }, i) => (
-          <Project
+          <Article
             key={i}
             title={title}
             gitHubLink={gitHubLink}
