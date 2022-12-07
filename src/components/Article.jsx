@@ -1,6 +1,6 @@
 import "./article.css";
 
-const Article = ({ imgUrl }) => {
+const Article = ({ imgUrl, date, title }) => {
   return (
     <div className="portfolio__library-container_article">
       <div className="portfolio__library-container_article-image">
@@ -8,6 +8,8 @@ const Article = ({ imgUrl }) => {
       </div>
       <div className="portfolio__library-container_article-content">
         <div>
+          <p>{date}</p>
+          <h3>{title}</h3>
         </div>
       </div>
     </div>

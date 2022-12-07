@@ -1,12 +1,16 @@
 import "./Project.css";
-const Project = ({ title, text, deployLink, gitHubLink }) => {
+const Project = ({ imgUrl, title, text, deployLink, gitHubLink }) => {
   return (
     <div className="portfolio__projects-container__project">
+      <div className="portfolio__projects-container__project-image">
+        {imgUrl ? <img src={imgUrl} alt="project-preview" /> : null}
+      </div>
       <div className="portfolio__projects-container__project-title">
-        <div />
         <a href={deployLink}>
           <h1>{title}</h1>
         </a>
+      </div>
+      <div className="portfolio__projects-container__project-link">
         {gitHubLink ? (
           <a href={gitHubLink}>
             <h2>GitHub</h2>
