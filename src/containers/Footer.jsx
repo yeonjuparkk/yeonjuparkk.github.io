@@ -37,11 +37,6 @@ const Footer = () => {
         <p>© 2022 Yeonju Park. All rights reserved.</p>
       </div>
       <Social />
-      <div className="mp3-modal">
-        <audio controls autoPlay={true}>
-          <source src={song} type="audio/mpeg"/>
-        </audio>
-      </div>
     </div>
   );
 }

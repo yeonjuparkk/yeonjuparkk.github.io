@@ -1,11 +1,13 @@
 import "./Projects.css";
 import { Article } from "../components";
+import { plantarrium } from "../assets";
 
 const Projects = () => {
   const projectsData = [
     {
       title: "Book Treats",
       gitHubLink: "",
+      imgUrl: `${plantarrium}`,
       deployLink: "https://herewecode.io/",
       text: "A fun website to track reading records by stacking books",
     },
@@ -44,15 +46,18 @@ const Projects = () => {
         <h1 className="gradient__text">Projects</h1>
       </div>
       <div className="portfolio__projects-container">
-        {projectsData.map(({ title, gitHubLink, deployLink, text }, i) => (
-          <Article
-            key={i}
-            title={title}
-            gitHubLink={gitHubLink}
-            text={text}
-            deployLink={deployLink}
-          />
-        ))}
+        {projectsData.map(
+          ({ title, gitHubLink, deployLink, imgUrl, text }, i) => (
+            <Article
+              key={i}
+              title={title}
+              gitHubLink={gitHubLink}
+              deployLink={deployLink}
+              imgUrl={imgUrl}
+              text={text}
+            />
+          )
+        )}
       </div>
     </div>
   );
