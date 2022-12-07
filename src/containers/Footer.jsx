@@ -1,5 +1,4 @@
 import { Social } from "../components";
-import { song } from "../assets";
 import "./footer.css";
 
 const Footer = () => {

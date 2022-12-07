@@ -1,38 +1,35 @@
 import "./Projects.css";
-import { Article } from "../components";
-import { plantarrium } from "../assets";
+import { Project } from "../components";
+import { plantarrium, snake } from "../assets";
 
 const Projects = () => {
   const projectsData = [
     {
       title: "Book Treats",
       gitHubLink: "",
-      imgUrl: `${plantarrium}`,
       deployLink: "https://herewecode.io/",
+      imgUrl: "",
       text: "A fun website to track reading records by stacking books",
     },
     {
       title: "Plantarrium",
       gitHubLink: "https://github.com/yeonjuparkk/infinite-loop",
       deployLink: "https://plantarrium.onrender.com",
+      imgUrl: `${plantarrium}`,
       text: "An E-Commerse website for selling plants",
-    },
-    {
-      title: "Fitness Trac.kr",
-      gitHubLink: "",
-      deployLink: "https://herewecode.io/",
-      text: "Learned useEffect cause instructor was ignoring me",
     },
     {
       title: "Stranger's Things",
       gitHubLink: "",
       deployLink: "https://herewecode.io/",
-      text: "Sold my Black Air Force 1s",
+      imgUrl: "",
+      text: "strangers things",
     },
     {
       title: "Snake Game",
       gitHubLink: "https://github.com/yeonjuparkk/snake-game",
       deployLink: "https://vibrant-beaver-bfeed7.netlify.app/",
+      imgUrl: `${snake}`,
       text: "Snake Game",
     },
   ];
@@ -48,7 +45,7 @@ const Projects = () => {
       <div className="portfolio__projects-container">
         {projectsData.map(
           ({ title, gitHubLink, deployLink, imgUrl, text }, i) => (
-            <Article
+            <Project
               key={i}
               title={title}
               gitHubLink={gitHubLink}
