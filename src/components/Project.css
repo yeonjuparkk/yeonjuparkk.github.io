@@ -15,9 +15,11 @@
   transform: translateY(20px);
 }
 
-.portfolio__projects-container__project-card:hover .portfolio__projects-container__project-card::before {
+.portfolio__projects-container__project-card:hover::before {
+  content: "";
+  position: absolute;
   background-color: black;
-  opacity: 1;
+  opacity: 0.8;
 }
 
 
@@ -54,16 +56,14 @@
 .portfolio__projects-container__project-title {
   flex: 1;
   margin: 0px;
-  margin-bottom: 1.25rem;
+  margin-bottom: 3rem;
 }
 
 .portfolio__projects-container__project-title h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 25px;
-  line-height: 24px;
-  letter-spacing: -0.04em;
-  color: var(--color-library);
+  font-size: 40px;
+  color: white;
 }
 
 .portfolio__projects-container__project-title div {
@@ -76,8 +76,9 @@
 .portfolio__projects-container__project-link h2 {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 24px;
+  margin-bottom: 1.5rem;
   letter-spacing: -0.04em;
   color: var(--color-library);
 }
