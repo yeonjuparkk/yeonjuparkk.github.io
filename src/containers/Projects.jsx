@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Book Treats",
       gitHubLink: "",
       deployLink: "https://herewecode.io/",
-      imgUrl: "",
+      imgUrl: `${plantarrium}`,
       text: "A fun website to track reading records by stacking books",
     },
     {
@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Stranger's Things",
       gitHubLink: "",
       deployLink: "https://herewecode.io/",
-      imgUrl: "",
+      imgUrl: `${plantarrium}`,
       text: "strangers things",
     },
     {
@@ -39,9 +39,9 @@ const Projects = () => {
       className="portfolio__projects section__margin section__padding"
       id="projects"
     >
-      <div className="portfolio__projects-heading">
+      {/* <div className="portfolio__projects-heading">
         <h1 className="gradient__text">Projects</h1>
-      </div>
+      </div> */}
       <div className="portfolio__projects-container">
         {projectsData.map(
           ({ title, gitHubLink, deployLink, imgUrl, text }, i) => (
