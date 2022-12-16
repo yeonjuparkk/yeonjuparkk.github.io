@@ -1,6 +1,6 @@
 import "./Projects.css";
 import { Project } from "../components";
-import { plantarrium, snake } from "../assets";
+import { plantarrium, snake, strangersThings } from "../assets";
 
 const Projects = () => {
   const projectsData = [
@@ -22,10 +22,10 @@ const Projects = () => {
     },
     {
       title: "Stranger's Things",
-      gitHubLink: "",
-      deployLink: "https://herewecode.io/",
-      imgUrl: `${plantarrium}`,
-      text: "A Craigslist like website with front-end developed with CRUD ",
+      gitHubLink: "https://github.com/yeonjuparkk/strangers_things_project",
+      deployLink: "https://brave-dijkstra-2c5b38.netlify.app/",
+      imgUrl: `${strangersThings}`,
+      text: "A Craigslist like website built with CRUD",
       techStack: "React"
     },
     {
@@ -33,7 +33,7 @@ const Projects = () => {
       gitHubLink: "https://github.com/yeonjuparkk/snake-game",
       deployLink: "https://vibrant-beaver-bfeed7.netlify.app/",
       imgUrl: `${snake}`,
-      text: "Snake Game",
+      text: "Score by eating as many apples",
       techStack: "JavaScript DOM"
     },
   ];
