@@ -10,6 +10,7 @@ const Projects = () => {
       deployLink: "https://herewecode.io/",
       imgUrl: `${plantarrium}`,
       text: "A fun website to track reading records by stacking books",
+      techStack: "TypeScript, Java"
     },
     {
       title: "Plantarrium",
@@ -17,13 +18,15 @@ const Projects = () => {
       deployLink: "https://plantarrium.onrender.com",
       imgUrl: `${plantarrium}`,
       text: "An E-Commerse website for selling plants",
+      techStack: "React, Node.js, postgreSQL, CSS"
     },
     {
       title: "Stranger's Things",
       gitHubLink: "",
       deployLink: "https://herewecode.io/",
       imgUrl: `${plantarrium}`,
-      text: "strangers things",
+      text: "A Craigslist like website with front-end developed with CRUD ",
+      techStack: "React"
     },
     {
       title: "Snake Game",
@@ -31,6 +34,7 @@ const Projects = () => {
       deployLink: "https://vibrant-beaver-bfeed7.netlify.app/",
       imgUrl: `${snake}`,
       text: "Snake Game",
+      techStack: "JavaScript DOM"
     },
   ];
 
@@ -39,12 +43,12 @@ const Projects = () => {
       className="portfolio__projects section__margin section__padding"
       id="projects"
     >
-      {/* <div className="portfolio__projects-heading">
+      <div className="portfolio__projects-heading">
         <h1 className="gradient__text">Projects</h1>
-      </div> */}
+      </div>
       <div className="portfolio__projects-container">
         {projectsData.map(
-          ({ title, gitHubLink, deployLink, imgUrl, text }, i) => (
+          ({ title, gitHubLink, deployLink, imgUrl, text, techStack }, i) => (
             <Project
               key={i}
               title={title}
@@ -52,6 +56,7 @@ const Projects = () => {
               deployLink={deployLink}
               imgUrl={imgUrl}
               text={text}
+              techStack={techStack}
             />
           )
         )}

@@ -1,5 +1,5 @@
 import "./Project.css";
-const Project = ({ imgUrl, title, text, deployLink, gitHubLink }) => {
+const Project = ({ imgUrl, title, text, deployLink, gitHubLink, techStack }) => {
   return (
     <div className="portfolio__projects-container__project-card">
       <div className="portfolio__projects-container__project-image">
@@ -20,6 +20,9 @@ const Project = ({ imgUrl, title, text, deployLink, gitHubLink }) => {
         </div>
         <div className="portfolio__projects-container__project-text">
           <p>{text}</p>
+        </div>
+        <div className="portfolio__projects-container__project-tech-stack">
+          <p>{techStack}</p>
         </div>
       </div>
     </div>
