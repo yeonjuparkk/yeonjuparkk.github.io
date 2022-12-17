@@ -1,8 +1,40 @@
 import { useState } from "react";
+import { send } from "emailjs-com";
 import "./Contact.css";
 
 const Contact = () => {
   const [showContact, setShowContact] = useState(false);
+  const [toSend, setToSend] = useState({
+    from_name: "",
+    message: "",
+    reply_to: "",
+  });
+
+  console.log(
+    process.env.EMAILJS_SERVICE_ID,
+    process.env.EMAILJS_TEMPLAYE_ID,
+    process.env.EMAILJS_API_KEY
+  );
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      process.env.EMAILJS_SERVICE_ID,
+      process.env.EMAILJS_TEMPLAYE_ID,
+      toSend,
+      process.env.EMAILJS_API_KEY
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
 
   return (
     <div className="portfolio__cta">
@@ -15,10 +47,31 @@ const Contact = () => {
         </div>
         {showContact && (
           <>
-            {/* TODO: Turn into a form */}
             <div className="portfolio__header-content__input">
-              <input type="email" placeholder="Your Email Address" />
-              <button type="button">Get Started</button>
+              <form onSubmit={onSubmit}>
+                <input
+                  type="text"
+                  name="from_name"
+                  placeholder="Your name"
+                  value={toSend.from_name}
+                  onChange={handleChange}
+                />
+                <input
+                  type="email"
+                  name="reply_to"
+                  placeholder="Your email"
+                  value={toSend.reply_to}
+                  onChange={handleChange}
+                />
+                <input
+                  type="text"
+                  name="message"
+                  placeholder="Your message"
+                  value={toSend.message}
+                  onChange={handleChange}
+                />
+                <button type="submit">Get Started!</button>
+              </form>
             </div>
           </>
         )}
