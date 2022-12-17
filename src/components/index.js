@@ -1,4 +1,3 @@
-export { default as Article } from "./Article";
 export { default as Social } from "./Social";
 export { default as CTA } from "./CTA";
 export { default as Project } from "./Project";
