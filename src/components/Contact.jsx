@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./cta.css";
+import "./Contact.css";
 
-const CTA = () => {
+const Contact = () => {
   const [showContact, setShowContact] = useState(false);
 
   return (
@@ -27,4 +27,4 @@ const CTA = () => {
   );
 };
 
-export default CTA;
+export default Contact;
