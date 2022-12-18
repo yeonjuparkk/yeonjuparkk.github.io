@@ -1,7 +1,7 @@
 import "./Library.css";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { CTA } from "../components";
+import { Contact } from "../components";
 import {
   wedding1,
   wedding2,
@@ -9,8 +9,7 @@ import {
   wedding4,
   wedding5,
   weddingDetail1,
-  weddingDetail2,
-  weddingDetail3,
+  weddingDetail2
 } from "../assets";
 
 const images = [
@@ -66,7 +65,7 @@ const Library = () => {
           </div>
         </div>
       </Slide>
-      <CTA />
+      <Contact />
     </div>
   );
 };
