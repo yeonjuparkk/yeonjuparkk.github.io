@@ -9,20 +9,13 @@ const Contact = () => {
     message: "",
     reply_to: "",
   });
-
-  console.log(
-    process.env.EMAILJS_SERVICE_ID,
-    process.env.EMAILJS_TEMPLAYE_ID,
-    process.env.EMAILJS_API_KEY
-  );
-
   const onSubmit = (e) => {
     e.preventDefault();
     send(
-      process.env.EMAILJS_SERVICE_ID,
-      process.env.EMAILJS_TEMPLAYE_ID,
+      process.env.REACT_APP_EMAILJS_SERVICE_ID.toString(),
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID.toString(),
       toSend,
-      process.env.EMAILJS_API_KEY
+      process.env.REACT_APP_EMAILJS_API_KEY.toString()
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
@@ -37,10 +30,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="portfolio__cta">
-      <div className="portfolio__cta-content">
-        <h3>Ready to book a session with me?</h3>
-        <div className="portfolio__cta-btn">
+    <div className="portfolio__contact">
+      <div className="portfolio__contact-content">
+        <div className="portfolio__contact-title">
+          <h3>Ready to book a session with me?</h3>
+        </div>
+        <div className="portfolio__contact-btn">
           <button type="button" onClick={() => setShowContact(!showContact)}>
             Click Here
           </button>
@@ -63,12 +58,13 @@ const Contact = () => {
                   value={toSend.reply_to}
                   onChange={handleChange}
                 />
-                <input
+                <textarea
                   type="text"
                   name="message"
                   placeholder="Your message"
                   value={toSend.message}
                   onChange={handleChange}
+                  rows="6" cols="50"
                 />
                 <button type="submit">Get Started!</button>
               </form>

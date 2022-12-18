@@ -44,7 +44,7 @@
   display: flex;
 }
 
-.portfolio__header-content__input input {
+.portfolio__header-content__input input, .portfolio__header-content__input textarea {
   flex: 2;
   width: 100%;
   background: var(--color-footer);

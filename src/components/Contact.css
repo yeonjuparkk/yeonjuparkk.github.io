@@ -1,4 +1,4 @@
-.portfolio__cta {
+.portfolio__contact {
 	border: 1px solid white;
 	color: white;
 	
@@ -13,7 +13,7 @@
 	background: var(--gradient-bar);
 }
 
-.portfolio__cta-content p {
+.portfolio__contact-content p {
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 12px;
@@ -21,22 +21,22 @@
 	color: #0E0E0E;
 }
 
-.portfolio__cta-content h3 {
+.portfolio__contact-content h3 {
 	font-family: var(--font-family);
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 45px;
 	color: #000000;
 }
-
-.portfolio__cta-btn {
+	
+.portfolio__contact-btn, .portfolio__contact-title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-left: 2rem;
 }
 
-.portfolio__cta-btn button {
+.portfolio__contact-btn button {
 	background: #000000;
 	border-radius: 40px;	
 	font-family: var(--font-family);
@@ -52,26 +52,26 @@
 }
 
 @media screen and (max-width: 650px) {
-	.portfolio__cta {
+	.portfolio__contact {
 		flex-direction: column;
 	}	
 
-	.portfolio__cta-btn {
+	.portfolio__contact-btn {
 		margin: 2rem 0 0;
 	}
 }
 
 @media screen and (max-width: 550px) {
-	.portfolio__cta {
+	.portfolio__contact {
 		margin: 4rem 2rem;
 	}
 
-	.portfolio__cta-content h3 {
+	.portfolio__contact-content h3 {
 		font-size: 18px;
 		line-height: 32px;
 	}
 
-	.portfolio__cta-btn button {
+	.portfolio__contact-btn button {
 		font-size: 14px;
 		line-height: 28px;
 	}
