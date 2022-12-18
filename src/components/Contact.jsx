@@ -4,6 +4,7 @@ import "./Contact.css";
 
 const Contact = () => {
   const [showContact, setShowContact] = useState(false);
+  const [showSuccess, setSuccess] = useState(false);
   const [toSend, setToSend] = useState({
     from_name: "",
     message: "",
@@ -19,6 +20,7 @@ const Contact = () => {
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
+        setSuccess(true);
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -42,33 +44,44 @@ const Contact = () => {
         </div>
         {showContact && (
           <>
-            <div className="portfolio__header-content__input">
-              <form onSubmit={onSubmit}>
-                <input
-                  type="text"
-                  name="from_name"
-                  placeholder="Your name"
-                  value={toSend.from_name}
-                  onChange={handleChange}
-                />
-                <input
-                  type="email"
-                  name="reply_to"
-                  placeholder="Your email"
-                  value={toSend.reply_to}
-                  onChange={handleChange}
-                />
-                <textarea
-                  type="text"
-                  name="message"
-                  placeholder="Your message"
-                  value={toSend.message}
-                  onChange={handleChange}
-                  rows="6" cols="50"
-                />
-                <button type="submit">Get Started!</button>
-              </form>
-            </div>
+            {!showSuccess && (
+              <div className="portfolio__header-content__input">
+                <form onSubmit={onSubmit}>
+                  <input
+                    type="text"
+                    name="from_name"
+                    placeholder="Your name"
+                    value={toSend.from_name}
+                    onChange={handleChange}
+                  />
+                  <input
+                    type="email"
+                    name="reply_to"
+                    placeholder="Your email"
+                    value={toSend.reply_to}
+                    onChange={handleChange}
+                  />
+                  <textarea
+                    type="text"
+                    name="message"
+                    placeholder="Your message"
+                    value={toSend.message}
+                    onChange={handleChange}
+                    rows="6"
+                    cols="50"
+                  />
+                  <button type="submit">Get Started!</button>
+                </form>
+              </div>
+            )}
+            {showSuccess && (
+              <div className="portfolio__contact-title">
+                <h4>
+                  Your message has been sent! <br /> Yeonju will reach out to
+                  you soon.
+                </h4>
+              </div>
+            )}
           </>
         )}
       </div>
