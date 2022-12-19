@@ -4,7 +4,7 @@ import "./Contact.css";
 
 const Contact = () => {
   const [showContact, setShowContact] = useState(false);
-  const [showSuccess, setSuccess] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
   const [toSend, setToSend] = useState({
     from_name: "",
     message: "",
@@ -20,7 +20,7 @@ const Contact = () => {
     )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        setSuccess(true);
+        setShowSuccess(true);
       })
       .catch((err) => {
         console.log("FAILED...", err);

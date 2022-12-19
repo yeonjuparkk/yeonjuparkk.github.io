@@ -19,3 +19,7 @@ export { default as node } from "./nodejs.png";
 export { default as postgreSQL } from "./postgre.png";
 export { default as react } from "./structure.png";
 export { default as java } from "./java.png";
+export { default as educationLight } from "./graduation-cap.png";
+export { default as educationDark } from "./graduation-cap-dark.png";
+export { default as workLight } from "./portfolio.png";
+export { default as workDark } from "./portfolio-dark.png";
