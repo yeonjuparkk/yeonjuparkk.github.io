@@ -11,3 +11,4 @@ export { default as wedding4 } from "./beachWedding.jpg";
 export { default as wedding5 } from "./101A6526.jpg";
 export { default as weddingDetail1 } from "./101A4894.jpg";
 export { default as weddingDetail2 } from "./101A7588.jpg";
+export { default as comingSoon } from "./coming_soon.png";
