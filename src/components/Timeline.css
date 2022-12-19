@@ -77,17 +77,17 @@
 }
 
 /* Place the container to the left */
-.left {
+.portfolio__experience-timeline-container.left {
   left: 0;
 }
 
 /* Place the container to the right */
-.right {
+.portfolio__experience-timeline-container.right {
   left: 50%;
 }
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.portfolio__experience-timeline-container.right::after {
   left: -8px;
 }
 
