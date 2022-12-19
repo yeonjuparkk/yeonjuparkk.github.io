@@ -17,24 +17,32 @@ const Timeline = () => {
       <div className="portfolio__experience-button" onClick={toggleTimeline}>
         {showEducation ? (
           <>
-            <img src={workDark} alt="dark-suitcase-icon" />
-            <div className="portfolio__experience-heading inactive">
-              <h2>Work</h2>
+            <div className="portfolio__experience-button-content">
+              <img src={workDark} alt="dark-suitcase-icon" />
+              <div className="portfolio__experience-heading inactive">
+                <h2>Work</h2>
+              </div>
             </div>
-            <img src={educationLight} alt="light-graduation-cap-icon" />
-            <div className="portfolio__experience-heading active">
-              <h2>Education</h2>
+            <div className="portfolio__experience-button-content">
+              <img src={educationLight} alt="light-graduation-cap-icon" />
+              <div className="portfolio__experience-heading active">
+                <h2>Education</h2>
+              </div>
             </div>
           </>
         ) : (
           <>
-            <img src={workLight} alt="light-suitcase-icon" />
-            <div className="portfolio__experience-heading active">
-              <h2>Work</h2>
+            <div className="portfolio__experience-button-content">
+              <img src={workLight} alt="light-suitcase-icon" />
+              <div className="portfolio__experience-heading active">
+                <h2>Work</h2>
+              </div>
             </div>
-            <img src={educationDark} alt="dark-graduation-cap-icon" />
-            <div className="portfolio__experience-heading inactive">
-              <h2>Education</h2>
+            <div className="portfolio__experience-button-content">
+              <img src={educationDark} alt="dark-graduation-cap-icon" />
+              <div className="portfolio__experience-heading inactive">
+                <h2>Education</h2>
+              </div>
             </div>
           </>
         )}
