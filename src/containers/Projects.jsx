@@ -9,7 +9,7 @@ const Projects = () => {
       gitHubLink: "",
       imgUrl: `${comingSoon}`,
       text: "A fun website to track reading records by stacking books",
-      techStack: "TypeScript, Java",
+      techStack: "React, TypeScript, Java",
     },
     {
       title: "Plantarrium",
@@ -17,7 +17,7 @@ const Projects = () => {
       deployLink: "https://plantarrium.onrender.com",
       imgUrl: `${plantarrium}`,
       text: "An E-Commerse website for selling plants",
-      techStack: "React, Node.js, postgreSQL, CSS",
+      techStack: "React, JavaScript, Node.js, postgreSQL, CSS",
     },
     {
       title: "Stranger's Things",
@@ -25,7 +25,7 @@ const Projects = () => {
       deployLink: "https://brave-dijkstra-2c5b38.netlify.app/",
       imgUrl: `${strangersThings}`,
       text: "A Craigslist like website built with CRUD",
-      techStack: "React",
+      techStack: "React, JavaScript, CSS",
     },
     {
       title: "Snake Game",
@@ -33,7 +33,7 @@ const Projects = () => {
       deployLink: "https://vibrant-beaver-bfeed7.netlify.app/",
       imgUrl: `${snake}`,
       text: "Score by eating as many apples",
-      techStack: "JavaScript DOM",
+      techStack: "JavaScript DOM, CSS",
     },
   ];
 

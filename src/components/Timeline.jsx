@@ -18,23 +18,23 @@ const Timeline = () => {
         {showEducation ? (
           <>
             <img src={workDark} alt="dark-suitcase-icon" />
-            <div className="portfolio__experience-button-heading-inactive">
-              Work
+            <div className="portfolio__experience-heading inactive">
+              <h2>Work</h2>
             </div>
             <img src={educationLight} alt="light-graduation-cap-icon" />
-            <div className="portfolio__experience-button-heading-active">
-              Education
+            <div className="portfolio__experience-heading active">
+              <h2>Education</h2>
             </div>
           </>
         ) : (
           <>
             <img src={workLight} alt="light-suitcase-icon" />
-            <div className="portfolio__experience-button-heading-active">
-              Work
+            <div className="portfolio__experience-heading active">
+              <h2>Work</h2>
             </div>
             <img src={educationDark} alt="dark-graduation-cap-icon" />
-            <div className="portfolio__experience-button-heading-inactive">
-              Education
+            <div className="portfolio__experience-heading inactive">
+              <h2>Education</h2>
             </div>
           </>
         )}
