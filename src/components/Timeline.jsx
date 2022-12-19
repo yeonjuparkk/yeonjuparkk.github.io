@@ -49,8 +49,8 @@ const Timeline = () => {
       </div>
       {!showEducation && (
         <div class="portfolio__experience-timeline">
-          <div class="portfolio__experience-timeline container left">
-            <div class="portfolio__experience-timeline content">
+          <div class="portfolio__experience-timeline-container left">
+            <div class="portfolio__experience-timeline-content">
               <h2>May 2022 - Present</h2>
               <p>Software Engineer at Cargill</p>
               <p>
@@ -59,8 +59,8 @@ const Timeline = () => {
               </p>
             </div>
           </div>
-          <div class="portfolio__experience-timeline container right">
-            <div class="portfolio__experience-timeline content">
+          <div class="portfolio__experience-timeline-container right">
+            <div class="portfolio__experience-timeline-content">
               <h2>Sep 2020 - May 2022</h2>
               <p>Process Engineer at Cargill</p>
               <p>
