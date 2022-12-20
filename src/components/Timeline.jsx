@@ -278,7 +278,7 @@ const Timeline = () => {
                 Plano, TX
               </p>
               <p className="portfolio__experience-timeline-content job">
-                Cashier/Barista at YogoPang ☕
+                Cashier/Barista at Annie's Cafe ☕
               </p>
               <p className="portfolio__experience-timeline-content description">
                 Made drinks and took customer orders

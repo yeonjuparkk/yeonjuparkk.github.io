@@ -1,4 +1,4 @@
-import "../containers/Experience.css";
+import "./Skills.css";
 import {
   css,
   html,
