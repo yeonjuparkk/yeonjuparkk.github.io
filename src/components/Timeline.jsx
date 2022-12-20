@@ -1,54 +1,79 @@
 import "./Timeline.css";
 import { useState } from "react";
-import { workDark, workLight, educationLight, educationDark } from "../assets";
+import {
+  workDark,
+  workLight,
+  educationLight,
+  educationDark,
+  mugDark,
+  mugLight,
+} from "../assets";
 
 const Timeline = () => {
-  const [showEducation, setShowEducation] = useState(false);
-  // const [timelineType, setTimelineType] = useState("professional")
-
-  const toggleTimeline = (e) => {
-    setShowEducation(!showEducation);
-  };
+  const [timelineType, setTimelineType] = useState("professional");
 
   return (
-    <div className="portfolio__experience-container">
+    <div className="portfolio__work-experience-container">
       <div className="portfolio__experience-heading">
         <h2>Experience</h2>
       </div>
-      <div className="portfolio__experience-button" onClick={toggleTimeline}>
-        {showEducation ? (
-          <>
-            <div className="portfolio__experience-button-content">
-              <img src={workDark} alt="dark-suitcase-icon" />
-              <div className="portfolio__experience-heading inactive">
-                <h3>Work</h3>
-              </div>
-            </div>
-            <div className="portfolio__experience-button-content">
-              <img src={educationLight} alt="light-graduation-cap-icon" />
-              <div className="portfolio__experience-heading active">
-                <h3>Education</h3>
-              </div>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="portfolio__experience-button-content">
-              <img src={workLight} alt="light-suitcase-icon" />
-              <div className="portfolio__experience-heading active">
-                <h3>Work</h3>
-              </div>
-            </div>
-            <div className="portfolio__experience-button-content">
-              <img src={educationDark} alt="dark-graduation-cap-icon" />
-              <div className="portfolio__experience-heading inactive">
-                <h3>Education</h3>
-              </div>
-            </div>
-          </>
-        )}
+      <div className="portfolio__experience-button">
+        <div
+          className="portfolio__experience-button-content"
+          onClick={() => {
+            setTimelineType("professional");
+          }}
+        >
+          <img
+            src={timelineType === "professional" ? workLight : workDark}
+            alt="suitcase-icon"
+          />
+          <div
+            className={`portfolio__experience-heading ${
+              timelineType === "professional" ? "active" : "inactive"
+            }`}
+          >
+            <h3>Work</h3>
+          </div>
+        </div>
+        <div
+          className="portfolio__experience-button-content"
+          onClick={() => {
+            setTimelineType("education");
+          }}
+        >
+          <img
+            src={timelineType === "education" ? educationLight : educationDark}
+            alt="graduation-cap-icon"
+          />
+          <div
+            className={`portfolio__experience-heading ${
+              timelineType === "education" ? "active" : "inactive"
+            }`}
+          >
+            <h3>Education</h3>
+          </div>
+        </div>
+        <div
+          className="portfolio__experience-button-content"
+          onClick={() => {
+            setTimelineType("partTime");
+          }}
+        >
+          <img
+            src={timelineType === "partTime" ? mugLight : mugDark}
+            alt="mug-icon"
+          />
+          <div
+            className={`portfolio__experience-heading ${
+              timelineType === "partTime" ? "active" : "inactive"
+            }`}
+          >
+            <h3>Part-Time</h3>
+          </div>
+        </div>
       </div>
-      {!showEducation && (
+      {timelineType==="professional" && (
         <div className="portfolio__experience-timeline">
           <div className="portfolio__experience-timeline-container left">
             <div className="portfolio__experience-timeline-content">
@@ -119,7 +144,7 @@ const Timeline = () => {
           </div>
         </div>
       )}
-      {showEducation && (
+      {timelineType==="education" && (
         <div className="portfolio__experience-timeline">
           <div className="portfolio__experience-timeline-container left">
             <div className="portfolio__experience-timeline-content">

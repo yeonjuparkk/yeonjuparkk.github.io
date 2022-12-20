@@ -23,3 +23,5 @@ export { default as educationLight } from "./graduation-cap.png";
 export { default as educationDark } from "./graduation-cap-dark.png";
 export { default as workLight } from "./portfolio.png";
 export { default as workDark } from "./portfolio-dark.png";
+export { default as mugLight } from "./pink_mug.png";
+export { default as mugDark } from "./dark_mug.png";
