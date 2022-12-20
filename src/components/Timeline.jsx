@@ -73,7 +73,7 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-      {timelineType==="professional" && (
+      {timelineType === "professional" && (
         <div className="portfolio__experience-timeline">
           <div className="portfolio__experience-timeline-container left">
             <div className="portfolio__experience-timeline-content">
@@ -144,7 +144,7 @@ const Timeline = () => {
           </div>
         </div>
       )}
-      {timelineType==="education" && (
+      {timelineType === "education" && (
         <div className="portfolio__experience-timeline">
           <div className="portfolio__experience-timeline-container left">
             <div className="portfolio__experience-timeline-content">
@@ -178,6 +178,113 @@ const Timeline = () => {
               </p>
             </div>
           </div>
+        </div>
+      )}
+      {timelineType === "partTime" && (
+        <div className="portfolio__experience-timeline">
+          <div className="portfolio__experience-timeline-container left">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
+                Jan 2021 - Present
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                Austin, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Portrait Photographer 📷
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Photographed and provided fully edited galleries for engagement,
+                wedding, and senior sessions
+              </p>
+            </div>
+          </div>
+          <div className="portfolio__experience-timeline-container right">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
+                Aug 2019 - Dec 2019
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                College Station, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Videographer at Texas A&M Rec Sports 📷
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Created and edited marketing content (videos and photos)
+                promoting department programs used across social platforms
+              </p>
+            </div>
+          </div>
+          <div className="portfolio__experience-timeline-container left">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
+                Jan 2017 - Dec 2018
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                College Station, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Undergraduate Teaching Fellow at Texas A&M Department of
+                Mathematics ✏️
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Facilitated and led weekly engineering math recitation sessions
+                for Pre-Calulus, Calculus I, and Calculus II
+              </p>
+            </div>
+          </div>
+          <div className="portfolio__experience-timeline-container right">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
+                Jan 2018 - May 2018
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                College Station, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Undergraduate Research Assistant at Texas A&M Department of
+                Computer Science 👩🏻‍💻
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Provided UI components for a children's social networking
+                website under Dr. Hammond
+              </p>
+            </div>
+          </div>
+          <div className="portfolio__experience-timeline-container left">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
+                Oct 2016 - Feb 2018
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                College Station, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Peer Tutor for Texas A&M Department of Engineering and Academic
+                Success Center ✏️
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Tutored 100-200 level engineering, math, and science courses
+              </p>
+            </div>
+          </div>
+          <div className="portfolio__experience-timeline-container right">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
+                Dec 2014 - Aug 2016
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                Plano, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Cashier/Barista at YogoPang ☕
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Made drinks and took customer orders
+              </p>
+            </div>
+          </div> 
         </div>
       )}
     </div>
