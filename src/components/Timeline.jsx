@@ -4,6 +4,7 @@ import { workDark, workLight, educationLight, educationDark } from "../assets";
 
 const Timeline = () => {
   const [showEducation, setShowEducation] = useState(false);
+  // const [timelineType, setTimelineType] = useState("professional")
 
   const toggleTimeline = (e) => {
     setShowEducation(!showEducation);
@@ -125,6 +126,9 @@ const Timeline = () => {
               <p className="portfolio__experience-timeline-content date">
                 Oct 2021 - Apr 2021
               </p>
+              <p className="portfolio__experience-timeline-content date">
+                Remote
+              </p>
               <p className="portfolio__experience-timeline-content job">
                 Fullstack Academy
               </p>
@@ -136,7 +140,10 @@ const Timeline = () => {
           <div className="portfolio__experience-timeline-container right">
             <div className="portfolio__experience-timeline-content">
               <p className="portfolio__experience-timeline-content date">
-                Aug 2015 - December 2019
+                Aug 2015 - Dec 2019
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                College Station, TX
               </p>
               <p className="portfolio__experience-timeline-content job">
                 Texas A&M University
