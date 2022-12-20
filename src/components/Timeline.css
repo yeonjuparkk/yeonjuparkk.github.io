@@ -1,3 +1,8 @@
+.portfolio__experience-container{
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio__experience-heading {
   flex: 1;
   display: flex;
@@ -5,7 +10,7 @@
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
-  margin: 0rem 1rem 3rem 0rem;
+  /* margin: 0rem 1rem 3rem 0rem; */
 }
 
 .portfolio__experience-heading h2 {
@@ -17,10 +22,16 @@
   color: white;
 }
 
-.portfolio__experience-button-content, .portfolio__experience-button {
+.portfolio__experience-button-content {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.portfolio__experience-button{
+  display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 
@@ -39,7 +50,7 @@
 
 /* The actual timeline (the vertical ruler) */
 .portfolio__experience-timeline {
-  position: flex;
+  position: relative;
   margin: 0 auto;
 }
 

@@ -10,7 +10,7 @@ const Timeline = () => {
   };
 
   return (
-    <>
+    <div className="portfolio__experience-container">
       <div className="portfolio__experience-heading">
         <h2>Timeline</h2>
       </div>
@@ -70,8 +70,26 @@ const Timeline = () => {
             </div>
           </div>
         </div>
+      )}{" "}
+      {showEducation && (
+        <div class="portfolio__experience-timeline">
+          <div class="portfolio__experience-timeline-container left">
+            <div class="portfolio__experience-timeline-content">
+              <h2>Oct 2021 - Apr 2021</h2>
+              <p>Fullstack Academy</p>
+              <p>Part-Time Software Engineering Immersive Bootcamp</p>
+            </div>
+          </div>
+          <div class="portfolio__experience-timeline-container right">
+            <div class="portfolio__experience-timeline-content">
+              <h2>Aug 2015 - December 2019</h2>
+              <p>Texas A&M University</p>
+              <p>Bachelor of Science in Chemical Engineering</p>
+            </div>
+          </div>
+        </div>
       )}
-    </>
+    </div>
   );
 };
 
