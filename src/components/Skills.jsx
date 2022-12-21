@@ -17,7 +17,15 @@ import {
   javaScript,
   typeScript,
   apiIcon,
-  express
+  express,
+  vsCode,
+  intelliJ,
+  postman,
+  github,
+  gradle,
+  datadog,
+  swagger,
+  docker
 } from "../assets";
 const Skills = () => {
   const [skillType, setSkillType] = useState("frontend");
@@ -132,6 +140,42 @@ const Skills = () => {
           <div className="portfolio__experience-skills-content">
             <img src={postgreSQL} alt="postgreSQL-logo" />
             <p className="portfolio__experience-skills name">postgreSQL</p>
+          </div>
+        </div>
+      )}{" "}
+      {skillType === "other" && (
+        <div className="portfolio__experience-skills-container">
+          <div className="portfolio__experience-skills-content">
+            <img src={github} alt="GitHub-logo" />
+            <p className="portfolio__experience-skills name">GitHub</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={gradle} alt="Gradle-logo" />
+            <p className="portfolio__experience-skills name">Gradle</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={postman} alt="Postman-logo" />
+            <p className="portfolio__experience-skills name">Postman</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={vsCode} alt="VSCode-logo" />
+            <p className="portfolio__experience-skills name">VS Code</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={intelliJ} alt="IntelliJIDEA-logo" />
+            <p className="portfolio__experience-skills name">IntelliJ IDEA</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={datadog} alt="Datadog-logo" />
+            <p className="portfolio__experience-skills name">Datadog</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={swagger} alt="Swagger-logo" />
+            <p className="portfolio__experience-skills name">Swagger</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={docker} alt="docker-logo" />
+            <p className="portfolio__experience-skills name">Docker</p>
           </div>
         </div>
       )}
