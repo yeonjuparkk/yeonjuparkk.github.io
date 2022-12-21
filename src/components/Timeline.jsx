@@ -272,6 +272,22 @@ const Timeline = () => {
           <div className="portfolio__experience-timeline-container right">
             <div className="portfolio__experience-timeline-content">
               <p className="portfolio__experience-timeline-content date">
+                May 2017 - Aug 2017
+              </p>
+              <p className="portfolio__experience-timeline-content date">
+                College Station, TX
+              </p>
+              <p className="portfolio__experience-timeline-content job">
+                Hostess at 40 Tempura Sushi Restaurant 🍣
+              </p>
+              <p className="portfolio__experience-timeline-content description">
+                Seated guests and managed reservations
+              </p>
+            </div>
+          </div> 
+          <div className="portfolio__experience-timeline-container left">
+            <div className="portfolio__experience-timeline-content">
+              <p className="portfolio__experience-timeline-content date">
                 Dec 2014 - Aug 2016
               </p>
               <p className="portfolio__experience-timeline-content date">
