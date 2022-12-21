@@ -1,6 +1,13 @@
 import { Navbar } from "./components";
 
-import { Footer, Library, Projects, About, Header } from "./containers";
+import {
+  Footer,
+  Library,
+  Projects,
+  Experience,
+  About,
+  Header,
+} from "./containers";
 
 import "./App.css";
 
@@ -12,6 +19,7 @@ function App() {
         <Header />
       </div>
       <About />
+      <Experience />
       <Projects />
       <Library />
       <Footer />

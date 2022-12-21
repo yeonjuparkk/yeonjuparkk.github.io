@@ -8,36 +8,64 @@ const Footer = () => {
         <div className="portfolio__footer-links_logo">
           <h1>Yeonju Park</h1>
           <p>All Rights Reserved</p>
-        </div> 
-        <div className="portfolio__footer-links_div">
-          <h4>Links</h4>
-          <p>Overons</p>
-          <p>Stuuff</p>
-          <p>More Stuff</p>
-          <p>Yeah Stuff</p>
         </div>
         <div className="portfolio__footer-links_div">
-          <h4>Company</h4>
-          <p>Overons</p>
-          <p>Stuuff</p>
-          <p>More Stuff</p>
-          <p>Yeah Stuff</p>
+          <h4>Explore</h4>
+          <a href="#home">
+            <p>Home</p>
+          </a>
+          <a href="#about">
+            <p>About</p>
+          </a>
+          <a href="#projects">
+            <p>Projects</p>
+          </a>
+          <a href="#experience">
+            <p>Experience</p>
+          </a>
+          <a href="#photography">
+            <p>Photography</p>
+          </a>
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Get In Touch</h4>
-          <p>Overons</p>
-          <p>Stuuff</p>
-          <p>More Stuff</p>
-          <p>Yeah Stuff</p>
+          <a href="yeonju.k.park@gmail.com" target="_blank" rel="noreferrer">
+            <p>Email</p>
+          </a>
+          <a
+            href="https://github.com/yeonjuparkk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p>GitHub</p>
+          </a>
+          <a
+            href="ttps://www.linkedin.com/in/yeonju-park-276753137/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p>LinkedIn</p>
+          </a>
+        </div>
+        <div className="portfolio__footer-links_div">
+          <h4>Other</h4>
+          <p>Resume</p>
+          <a
+            href="https://www.instagram.com/yeonju_park_photography/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p>Photography</p>
+          </a>
         </div>
       </div>
 
       <div className="portfolio__footer-copyright">
-        <p>© 2022 Yeonju Park. All rights reserved.</p>
+        <p>© 2023 Yeonju Park. All rights reserved.</p>
       </div>
       <Social />
     </div>
   );
-}
+};
 
 export default Footer;

@@ -1,6 +1,6 @@
 .portfolio__header {
   display: flex;
-  padding-bottom: 15rem !important;
+  height: 100vh;
 }
 
 .portfolio__header-content {

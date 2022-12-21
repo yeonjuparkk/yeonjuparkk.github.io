@@ -1,5 +1,12 @@
 import "./Project.css";
-const Project = ({ imgUrl, title, text, deployLink, gitHubLink, techStack }) => {
+const Project = ({
+  imgUrl,
+  title,
+  text,
+  deployLink,
+  gitHubLink,
+  techStack,
+}) => {
   return (
     <div className="portfolio__projects-container__project-card">
       <div className="portfolio__projects-container__project-image">
@@ -7,13 +14,13 @@ const Project = ({ imgUrl, title, text, deployLink, gitHubLink, techStack }) => 
       </div>
       <div className="portfolio__projects-container__project-info">
         <div className="portfolio__projects-container__project-title">
-          <a href={deployLink}>
+          <a href={deployLink} target="_blank" rel="noreferrer">
             <h1>{title}</h1>
           </a>
         </div>
         <div className="portfolio__projects-container__project-link">
           {gitHubLink ? (
-            <a href={gitHubLink}>
+            <a href={gitHubLink} target="_blank" rel="noreferrer">
               <h2>GitHub</h2>
             </a>
           ) : null}
