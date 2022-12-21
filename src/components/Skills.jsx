@@ -5,8 +5,9 @@ import {
   html,
   node,
   postgreSQL,
-  react,
   java,
+  react,
+  spring,
   frontendDark,
   frontendLight,
   otherDark,
@@ -14,6 +15,9 @@ import {
   backendDark,
   backendLight,
   javaScript,
+  typeScript,
+  apiIcon,
+  express
 } from "../assets";
 const Skills = () => {
   const [skillType, setSkillType] = useState("frontend");
@@ -86,6 +90,10 @@ const Skills = () => {
             <p className="portfolio__experience-skills name">JavaScript</p>
           </div>
           <div className="portfolio__experience-skills-content">
+            <img src={typeScript} alt="TypeScript-logo" />
+            <p className="portfolio__experience-skills name">TypeScript</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
             <img src={react} alt="react-logo" />
             <p className="portfolio__experience-skills name">React</p>
           </div>
@@ -96,6 +104,34 @@ const Skills = () => {
           <div className="portfolio__experience-skills-content">
             <img src={css} alt="html-logo" />
             <p className="portfolio__experience-skills name">CSS3</p>
+          </div>
+        </div>
+      )}
+      {skillType === "backend" && (
+        <div className="portfolio__experience-skills-container">
+          <div className="portfolio__experience-skills-content">
+            <img src={node} alt="node-logo" />
+            <p className="portfolio__experience-skills name">Node.js</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={express} alt="express-logo" />
+            <p className="portfolio__experience-skills name">Express.js</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={java} alt="Java-logo" />
+            <p className="portfolio__experience-skills name">Java</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={spring} alt="Srping-logo" />
+            <p className="portfolio__experience-skills name">Spring</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={apiIcon} alt="api-logo" />
+            <p className="portfolio__experience-skills name">RESTful API</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={postgreSQL} alt="postgreSQL-logo" />
+            <p className="portfolio__experience-skills name">postgreSQL</p>
           </div>
         </div>
       )}

@@ -31,3 +31,7 @@ export { default as otherDark } from "./dark-middle.png";
 export { default as otherLight } from "./pink-middle.png";
 export { default as backendDark } from "./dark-backend.png";
 export { default as backendLight } from "./pink-backend.png";
+export { default as typeScript } from "./typescript.png";
+export { default as spring } from "./java-spring.svg";
+export { default as apiIcon } from "./api.png";
+export { default as express } from "./expressjs-icon.svg";
