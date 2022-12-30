@@ -43,3 +43,7 @@ export { default as gradle } from "./gradle-elephant-icon-gradient-primary.svg";
 export { default as swagger } from "./Swagger-logo.png";
 export { default as datadog } from "./dd_icon_rgb.png";
 export { default as docker } from "./docker-logo.webp";
+export { default as instaStory1 } from "./Untitled_Artwork 2.PNG";
+export { default as instaStory2 } from "./Untitled_Artwork 3.PNG";
+export { default as instaStory3 } from "./Untitled_Artwork 4.PNG";
+export { default as instaStory4 } from "./Untitled_Artwork 5.PNG";

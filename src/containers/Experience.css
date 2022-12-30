@@ -40,3 +40,21 @@
   align-items: center;
   flex-direction: column;
 }
+
+
+@media screen and (max-width: 990px) {
+  .portfolio__experience {
+    flex-direction: column;
+  }
+
+  .portfolio__experience-heading {
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio__projects-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
