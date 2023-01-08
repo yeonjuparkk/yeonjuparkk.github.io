@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Get In Touch</h4>
-          <a href="yeonju.k.park@gmail.com" target="_blank" rel="noreferrer">
+          <a href="mailto: yeonju.k.park@gmail.com" target="_blank" rel="noreferrer">
             <p>Email</p>
           </a>
           <a

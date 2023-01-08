@@ -64,12 +64,6 @@
 	flex-direction: column;
 }
 
-.portfolio__footer-links_logo img {
-	width: 118px;
-	height: 30px;
-	margin-bottom: 1rem;
-}
-
 .portfolio__footer-links_logo p {
 	font-family: var(--font-family);
 	font-size: 12px;
