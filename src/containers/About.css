@@ -90,6 +90,16 @@
 	margin-top: 0.5rem;
 }
 
+.portfolio__about-content img{
+	width: 360px;
+}
+
+.portfolio__about-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @media screen and (max-width: 850px) {
 	.portfolio__about-heading {
 			flex-direction: column;

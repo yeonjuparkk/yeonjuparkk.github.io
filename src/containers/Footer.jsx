@@ -49,13 +49,13 @@ const Footer = () => {
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Other</h4>
-          <p>Resume</p>
+          <p>Resume </p>
           <a
             href="https://www.instagram.com/yeonju_park_photography/"
             target="_blank"
             rel="noreferrer"
           >
-            <p>Photography</p>
+            <p>Photography Portfolio</p>
           </a>
         </div>
       </div>
