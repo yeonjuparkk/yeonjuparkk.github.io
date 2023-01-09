@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Get In Touch</h4>
-          <a href="yeonju.k.park@gmail.com" target="_blank" rel="noreferrer">
+          <a href="mailto: yeonju.k.park@gmail.com" target="_blank" rel="noreferrer">
             <p>Email</p>
           </a>
           <a
@@ -40,7 +40,7 @@ const Footer = () => {
             <p>GitHub</p>
           </a>
           <a
-            href="ttps://www.linkedin.com/in/yeonju-park-276753137/"
+            href="https://www.linkedin.com/in/yeonju-park-276753137/"
             target="_blank"
             rel="noreferrer"
           >
@@ -49,13 +49,19 @@ const Footer = () => {
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Other</h4>
+          <a
+            href="https://drive.google.com/file/d/1igSzrBkBns9lA4bGOD63v9w_lAxMMuHj/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
           <p>Resume</p>
+          </a>
           <a
             href="https://www.instagram.com/yeonju_park_photography/"
             target="_blank"
             rel="noreferrer"
           >
-            <p>Photography</p>
+            <p>Photography Portfolio</p>
           </a>
         </div>
       </div>

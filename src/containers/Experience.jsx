@@ -3,7 +3,7 @@ import { Skills, Timeline } from "../components";
 
 const Experience = () => {
   return (
-    <div className="portfolio__experience section__margin" id="experience">
+    <div className="portfolio__experience section__margin section__padding" id="experience">
       <div className="portfolio__experience-heading">
         <h1 className="gradient__text">Experience</h1>
       </div>

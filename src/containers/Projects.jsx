@@ -32,7 +32,7 @@ const Projects = () => {
       gitHubLink: "https://github.com/yeonjuparkk/snake-game",
       deployLink: "https://vibrant-beaver-bfeed7.netlify.app/",
       imgUrl: `${snake}`,
-      text: "Score by eating as many apples",
+      text: "A game which scores by eating as many apples",
       techStack: "JavaScript DOM, CSS",
     },
   ];

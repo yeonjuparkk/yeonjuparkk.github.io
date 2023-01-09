@@ -139,7 +139,7 @@ const Skills = () => {
           </div>
           <div className="portfolio__experience-skills-content">
             <img src={postgreSQL} alt="postgreSQL-logo" />
-            <p className="portfolio__experience-skills name">postgreSQL</p>
+            <p className="portfolio__experience-skills name">PostgreSQL</p>
           </div>
         </div>
       )}{" "}
