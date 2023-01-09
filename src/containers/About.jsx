@@ -21,7 +21,7 @@ const About = () => {
       id="about"
     >
       <div className="portfolio__about-heading">
-        <h1 className="gradient__text">About</h1>
+        <h1 className="gradient__text">About Me</h1>
       </div>
       <div className="portfolio__about-content">
         <div className="portfoli__about-stories">
