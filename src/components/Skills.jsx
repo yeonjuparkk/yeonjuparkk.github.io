@@ -25,7 +25,7 @@ import {
   gradle,
   datadog,
   swagger,
-  docker
+  docker,
 } from "../assets";
 const Skills = () => {
   const [skillType, setSkillType] = useState("frontend");
@@ -118,14 +118,6 @@ const Skills = () => {
       {skillType === "backend" && (
         <div className="portfolio__experience-skills-container">
           <div className="portfolio__experience-skills-content">
-            <img src={node} alt="node-logo" />
-            <p className="portfolio__experience-skills name">Node.js</p>
-          </div>
-          <div className="portfolio__experience-skills-content">
-            <img src={express} alt="express-logo" />
-            <p className="portfolio__experience-skills name">Express.js</p>
-          </div>
-          <div className="portfolio__experience-skills-content">
             <img src={java} alt="Java-logo" />
             <p className="portfolio__experience-skills name">Java</p>
           </div>
@@ -134,12 +126,20 @@ const Skills = () => {
             <p className="portfolio__experience-skills name">Spring</p>
           </div>
           <div className="portfolio__experience-skills-content">
-            <img src={apiIcon} alt="api-logo" />
-            <p className="portfolio__experience-skills name">RESTful API</p>
-          </div>
-          <div className="portfolio__experience-skills-content">
             <img src={postgreSQL} alt="postgreSQL-logo" />
             <p className="portfolio__experience-skills name">PostgreSQL</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={node} alt="node-logo" />
+            <p className="portfolio__experience-skills name">Node.js</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={express} alt="express-logo" />
+            <p className="portfolio__experience-skills name">Express.js</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={apiIcon} alt="api-logo" />
+            <p className="portfolio__experience-skills name">RESTful API</p>
           </div>
         </div>
       )}{" "}
@@ -148,6 +148,10 @@ const Skills = () => {
           <div className="portfolio__experience-skills-content">
             <img src={github} alt="GitHub-logo" />
             <p className="portfolio__experience-skills name">GitHub</p>
+          </div>
+          <div className="portfolio__experience-skills-content">
+            <img src={intelliJ} alt="IntelliJIDEA-logo" />
+            <p className="portfolio__experience-skills name">IntelliJ IDEA</p>
           </div>
           <div className="portfolio__experience-skills-content">
             <img src={gradle} alt="Gradle-logo" />
@@ -160,10 +164,6 @@ const Skills = () => {
           <div className="portfolio__experience-skills-content">
             <img src={vsCode} alt="VSCode-logo" />
             <p className="portfolio__experience-skills name">VS Code</p>
-          </div>
-          <div className="portfolio__experience-skills-content">
-            <img src={intelliJ} alt="IntelliJIDEA-logo" />
-            <p className="portfolio__experience-skills name">IntelliJ IDEA</p>
           </div>
           <div className="portfolio__experience-skills-content">
             <img src={datadog} alt="Datadog-logo" />

@@ -87,7 +87,7 @@ const Timeline = () => {
                 Software Engineer at Cargill 👩🏻‍💻
               </p>
               <p className="portfolio__experience-timeline-content description">
-                Developed reusable microservices for APIs and products used
+                Developed reusable backend services for APIs and products used
                 across the enterprise
               </p>
             </div>
