@@ -10,11 +10,6 @@ const Social = () => {
           <img src={linkedin} alt="linkedin" />
         </a>
       </div>
-      <div>
-        <a href="https://www.instagram.com/yeonju_park_photography/" target="_blank" rel="noreferrer">
-          <img src={instagram} alt="instagram" />
-        </a>
-      </div>
     </div>
   );
 }

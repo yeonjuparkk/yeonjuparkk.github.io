@@ -23,9 +23,6 @@ const Footer = () => {
           <a href="#experience">
             <p>Experience</p>
           </a>
-          <a href="#photography">
-            <p>Photography</p>
-          </a>
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Get In Touch</h4>
@@ -56,20 +53,12 @@ const Footer = () => {
           >
           <p>Resume</p>
           </a>
-          <a
-            href="https://www.instagram.com/yeonju_park_photography/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p>Photography Portfolio</p>
-          </a>
         </div>
       </div>
 
       <div className="portfolio__footer-copyright">
-        <p>© 2023 Yeonju Park. All rights reserved.</p>
+        <p>© 2025 Yeonju Park. All rights reserved.</p>
       </div>
-      <Social />
     </div>
   );
 };
