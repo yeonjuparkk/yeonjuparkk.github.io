@@ -1,4 +1,4 @@
-import { linkedin, instagram } from "../assets";
+import { linkedin } from "../assets";
 import "./Social.css";
 
 const Social = () => {

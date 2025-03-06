@@ -12,8 +12,8 @@ const Header = () => {
           <p>
             Hello! <br />
             My name is Yeonju, and welcome to my page! <br /> I'm a full-time fullstack
-            software engineer and made this portfolio to share some of the
-            coding projects I have been working on. <br /> Have fun exploring my
+            software engineer, and I created this portfolio to share some of the
+            coding projects I've been working on. <br /> Enjoy exploring my
             page!
           </p>
         </div>
