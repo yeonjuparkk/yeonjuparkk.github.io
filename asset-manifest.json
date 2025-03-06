@@ -1,19 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ed205f0.css",
-    "main.js": "/static/js/main.8e9bda60.js",
+    "main.css": "/static/css/main.cac744ed.css",
+    "main.js": "/static/js/main.5181e152.js",
     "static/media/101A2722.jpg": "/static/media/101A2722.e5248ef316ac5d12e7fb.jpg",
-    "static/media/101A6526.jpg": "/static/media/101A6526.05e00a805dd5e0eacd7c.jpg",
-    "static/media/101A7588.jpg": "/static/media/101A7588.d95dcf835ef0bbb748a8.jpg",
-    "static/media/101A9753-2.jpg": "/static/media/101A9753-2.2d9a21d87d53800b5780.jpg",
-    "static/media/101A6143.jpg": "/static/media/101A6143.1589a67d27a946368ec9.jpg",
-    "static/media/Untitled_Artwork 4.PNG": "/static/media/Untitled_Artwork 4.101c4120d850223f1331.PNG",
-    "static/media/Untitled_Artwork 3.PNG": "/static/media/Untitled_Artwork 3.693ce01ec334704732a3.PNG",
-    "static/media/Untitled_Artwork 2.PNG": "/static/media/Untitled_Artwork 2.6504cc797f2d1b738da4.PNG",
-    "static/media/101A4894.jpg": "/static/media/101A4894.7ce5a51e16c397473035.jpg",
-    "static/media/Untitled_Artwork 5.PNG": "/static/media/Untitled_Artwork 5.3a94e4458d6e7a0d0eb3.PNG",
-    "static/media/beachWedding.jpg": "/static/media/beachWedding.57ee0df2d59a217955c1.jpg",
-    "static/media/weddingSunset.jpg": "/static/media/weddingSunset.e9b3411a6818c65f2324.jpg",
+    "static/media/2.png": "/static/media/2.ee034cfe1704cac22580.png",
+    "static/media/3.png": "/static/media/3.43dc17f5053349cfa3f6.png",
+    "static/media/1.png": "/static/media/1.2b17ce4b0fa4dc0186b5.png",
+    "static/media/4.png": "/static/media/4.94d11e7a286799356430.png",
     "static/media/plantarrium.png": "/static/media/plantarrium.c8cde1f3f6e3d4ef1cc3.png",
     "static/media/snake.png": "/static/media/snake.904d6d99d8e22acefdc8.png",
     "static/media/strangers_things.png": "/static/media/strangers_things.143cdd06ff68eb72ad19.png",
@@ -42,11 +35,11 @@
     "static/media/expressjs-icon.svg": "/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "static/media/java-spring.svg": "/static/media/java-spring.06648761f888d95c060a68377ffd04e8.svg",
     "index.html": "/index.html",
-    "main.6ed205f0.css.map": "/static/css/main.6ed205f0.css.map",
-    "main.8e9bda60.js.map": "/static/js/main.8e9bda60.js.map"
+    "main.cac744ed.css.map": "/static/css/main.cac744ed.css.map",
+    "main.5181e152.js.map": "/static/js/main.5181e152.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed205f0.css",
-    "static/js/main.8e9bda60.js"
+    "static/css/main.cac744ed.css",
+    "static/js/main.5181e152.js"
   ]
 }
