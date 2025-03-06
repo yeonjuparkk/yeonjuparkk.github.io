@@ -11,10 +11,12 @@ const Header = () => {
           <h1>Dog Mom</h1>
           <p>
             Hello! <br />
-            My name is Yeonju, and welcome to my page! <br /> I'm a full-time fullstack
-            software engineer, and I created this portfolio to share some of the
-            coding projects I've been working on. <br /> Enjoy exploring my
-            page!
+            My name is Yeonju, and welcome to my page! <br /> I'm a software
+            engineer at Cargill with nearly 3 years of backend development
+            experience, primarily focused on Java & Spring Boot. <br />
+            I created this portfolio to share some of the coding projects I've
+            worked on.
+            <br /> Enjoy exploring my page!
           </p>
         </div>
         <div className="portfolio__header-image">
