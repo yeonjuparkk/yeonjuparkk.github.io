@@ -87,8 +87,10 @@ const Timeline = () => {
                 Software Engineer at Cargill 👩🏻‍💻
               </p>
               <p className="portfolio__experience-timeline-content description">
-                Developed reusable backend services for APIs and products used
-                across the enterprise
+                Developed reusable backend services using Java Spring Boot,
+                contributing to Cargill's widely used enterprise APIs and
+                products for customer communication, including Email, SMS, and
+                Notifications API
               </p>
             </div>
           </div>
@@ -284,7 +286,7 @@ const Timeline = () => {
                 Seated guests and managed reservations
               </p>
             </div>
-          </div> 
+          </div>
           <div className="portfolio__experience-timeline-container left">
             <div className="portfolio__experience-timeline-content">
               <p className="portfolio__experience-timeline-content date">
@@ -300,7 +302,7 @@ const Timeline = () => {
                 Made drinks and took customer orders
               </p>
             </div>
-          </div> 
+          </div>
         </div>
       )}
     </div>
