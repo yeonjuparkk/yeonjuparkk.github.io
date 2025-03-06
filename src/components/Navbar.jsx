@@ -17,9 +17,6 @@ const Menu = () => {
       <p>
         <a href="#projects">Projects</a>
       </p>
-      <p>
-        <a href="#photography">Photography</a>
-      </p>
     </>
   );
 };

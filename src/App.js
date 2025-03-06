@@ -2,7 +2,6 @@ import { Navbar } from "./components";
 
 import {
   Footer,
-  Library,
   Projects,
   Experience,
   About,
@@ -21,7 +20,6 @@ function App() {
       <About />
       <Experience />
       <Projects />
-      <Library />
       <Footer />
     </div>
   );

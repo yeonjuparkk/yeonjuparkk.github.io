@@ -5,13 +5,6 @@ import { plantarrium, snake, strangersThings, comingSoon } from "../assets";
 const Projects = () => {
   const projectsData = [
     {
-      title: "Book Treats",
-      gitHubLink: "",
-      imgUrl: `${comingSoon}`,
-      text: "A fun website to track reading records by stacking books",
-      techStack: "React, TypeScript, Java",
-    },
-    {
       title: "Plantarrium",
       gitHubLink: "https://github.com/yeonjuparkk/infinite-loop",
       deployLink: "https://plantarrium.onrender.com",
