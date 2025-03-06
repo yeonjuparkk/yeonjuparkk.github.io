@@ -1,4 +1,3 @@
-import { Social } from "../components";
 import "./footer.css";
 
 const Footer = () => {
@@ -7,7 +6,6 @@ const Footer = () => {
       <div className="portfolio__footer-links">
         <div className="portfolio__footer-links_logo">
           <h1>Yeonju Park</h1>
-          <p>All Rights Reserved</p>
         </div>
         <div className="portfolio__footer-links_div">
           <h4>Explore</h4>
@@ -47,7 +45,7 @@ const Footer = () => {
         <div className="portfolio__footer-links_div">
           <h4>Other</h4>
           <a
-            href="https://drive.google.com/file/d/1igSzrBkBns9lA4bGOD63v9w_lAxMMuHj/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ALcnA1OCg_BQ1JeA6EE94Z82sC_rIlEb/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
