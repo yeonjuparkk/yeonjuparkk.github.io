@@ -11,7 +11,7 @@ const Header = () => {
           <h1>Dog Mom</h1>
           <p>
             Hello! <br />
-            My name is Yeonju, and welcome to my page! <br /> I'm a software
+            My name is Yeonju — welcome to my page! <br /> I'm a software
             engineer at Cargill with nearly 3 years of backend development
             experience, primarily focused on Java & Spring Boot. <br />
             I created this portfolio to share some of the coding projects I've

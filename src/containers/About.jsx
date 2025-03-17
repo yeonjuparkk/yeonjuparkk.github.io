@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion as m } from "framer-motion";
 
 const About = () => {
-  const images = [instaStory1, instaStory2, instaStory3, instaStory4];
+  const images = [instaStory3, instaStory2, instaStory1, instaStory4];
   const [index, setIndex] = useState(0);
   console.log("index" + index);
 
