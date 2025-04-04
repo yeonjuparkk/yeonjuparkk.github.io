@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "Plantarrium",
       gitHubLink: "https://github.com/yeonjuparkk/infinite-loop",
-      deployLink: "https://plantarrium.onrender.com",
+      deployLink: "https://walrus-app-nk8z2.ondigitalocean.app/",
       imgUrl: `${plantarrium}`,
       text: "An E-Commerse website for selling plants",
       techStack: "React, JavaScript, Node.js, postgreSQL, CSS",

@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="portfolio__footer-links_div">
           <h4>Other</h4>
           <a
-            href="https://drive.google.com/file/d/1ALcnA1OCg_BQ1JeA6EE94Z82sC_rIlEb/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zopSC_k85gqZ0y4emv6gDt0j5DLPYOlX/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
